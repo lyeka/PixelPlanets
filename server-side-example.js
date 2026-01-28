@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(多个类), gl, canvas, fs, Planets/noAtmosphere
+ * [OUTPUT]: generatePpm() 自执行，生成 test.png
+ * [POS]: Node.js 服务端渲染示例，演示 headless WebGL 渲染行星到 PNG
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 //Example to render image from node without browser
 import {
     Group,

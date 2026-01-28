@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader), utils(flip)
+ * [OUTPUT]: createDustLayer, createNebulaLayer
+ * [POS]: 太空背景层，星尘和星云效果，当前在 index.js 中被注释未使用
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader } from "three";
 import { flip } from "../utils.js";
 

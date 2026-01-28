@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Vector4), Layers(basePlanet, craterLayer, riversLayer), Three(createGroup)
+ * [OUTPUT]: createLavaPlanet()
+ * [POS]: 熔岩行星配方，红黑色调，basePlanet + craterLayer + riversLayer(熔岩流)
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Vector4 } from "three";
 import { createBasePlanet } from "../Layers/basePlanet.js";
 import { createCraterLayer } from "../Layers/craterLayer.js";

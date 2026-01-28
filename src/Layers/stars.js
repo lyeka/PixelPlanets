@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Group, Sprite, SpriteMaterial, NearestFilter, TextureLoader), utils(flip, rand, randomPointOnSphere)
+ * [OUTPUT]: createStars(count)
+ * [POS]: 背景星空粒子系统，Sprite 随机分布在球面上，被 index.js 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Group } from "three";
 import { Sprite } from "three";
 import { SpriteMaterial } from "three";

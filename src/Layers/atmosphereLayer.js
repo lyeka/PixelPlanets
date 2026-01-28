@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, Vector4, ShaderMaterial, PlaneGeometry)
+ * [OUTPUT]: createAtmosphereLayer()
+ * [POS]: 大气层，径向渐变 + smoothstep 柔和过渡，被 earthPlanet/icePlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh } from "three";
 import { Vector4 } from "three";
 import { ShaderMaterial } from "three";

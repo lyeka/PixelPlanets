@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createGasLayer(lightPos, lightIntensity, colors, rotationSpeed, rotation)
+ * [POS]: 气态行星气流层，横向流动效果，被 gasGiant/gasGiantRing 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 

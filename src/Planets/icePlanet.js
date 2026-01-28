@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Vector4, Group), Layers(basePlanet, cloudLayer, lakeLayer)
+ * [OUTPUT]: createIcePlanet()
+ * [POS]: 冰冻行星配方，蓝白色调，basePlanet + lakeLayer + cloudLayer
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Vector4 } from "three"
 import { Group } from "three"
 import { createBasePlanet } from "../Layers/basePlanet.js"

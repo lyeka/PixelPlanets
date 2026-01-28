@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Group), Layers(denseGasLayer, ringLayer)
+ * [OUTPUT]: createGasGiantRing()
+ * [POS]: 带环气态巨行星配方（土星风格），denseGasPlanet + ringLayer
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Group } from "three";
 import { createDenseGasPlanet } from "../Layers/denseGasLayer.js";
 import { createRingLayer } from "../Layers/ringLayer.js";

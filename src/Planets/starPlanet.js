@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Group), Layers(star, starBlobLayer, starFlareLayer)
+ * [OUTPUT]: createStarPlanet()
+ * [POS]: 恒星配方，star + starBlobLayer + starFlareLayer，带缩放和层级调整
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Group } from "three"
 import { createStar } from "../Layers/star.js"
 import { createStarBlobLayer } from "../Layers/starBlobLayer.js"

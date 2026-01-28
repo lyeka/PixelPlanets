@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createRiversLayer(lightPos, lightIntensity, colors, rotationSpeed, rotation)
+ * [POS]: 河流层，线性噪声生成河流纹理，被 DryPlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 

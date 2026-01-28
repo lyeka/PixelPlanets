@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Vector4, Group), Layers(atmosphereLayer, basePlanet, cloudLayer, landMass)
+ * [OUTPUT]: createEarthPlanet()
+ * [POS]: 地球型行星配方，蓝色海洋 + 绿色陆地 + 白色云层 + 大气层
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Vector4 } from "three";
 import { Group } from "three"
 import { createAtmosphereLayer } from "../Layers/atmosphereLayer.js";

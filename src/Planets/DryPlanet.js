@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Group, Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2), utils(flip)
+ * [OUTPUT]: createDryPlanet()
+ * [POS]: 干旱行星配方，黄褐色调，自包含 Shader 实现（未使用 Layers 模块）
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Group } from "three";
 import { Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2 } from "three";
 import { flip } from "../utils.js";

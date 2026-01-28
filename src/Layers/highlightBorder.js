@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(NearestFilter, Mesh, MeshBasicMaterial, TextureLoader, PlaneGeometry)
+ * [OUTPUT]: Border()
+ * [POS]: 高光边缘，使用 highlight.png 贴图增强立体感，可选装饰层
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { NearestFilter } from "three";
 import { Mesh } from "three";
 import { MeshBasicMaterial } from "three";

@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Group, Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createAsteroid()
+ * [POS]: 小行星配方，不规则形状 + 陨石坑，size uniform 控制形变，自包含 Shader 实现
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Group } from "three";
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";

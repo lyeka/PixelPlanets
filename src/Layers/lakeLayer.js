@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createLakeLayer(lightPos, lightIntensity, colors, rotationSpeed, rotation)
+ * [POS]: 湖泊层，在陆地上生成水体，被 DryPlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 

@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: Planets/*.js 所有行星工厂函数
+ * [OUTPUT]: rand, flip, randomPointOnSphere, generatePlanetByType
+ * [POS]: 工具函数集 + 行星类型路由中心，被 index.js/settings.js/Layers/*.js 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { createAsteroid } from "./Planets/asteroid.js";
 import { createDryPlanet } from "./Planets/DryPlanet.js";
 import { createEarthPlanet } from "./Planets/earthPlanet.js";

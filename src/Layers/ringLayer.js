@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2), utils(flip)
+ * [OUTPUT]: createRingLayer(lightPos, rotationSpeed, rotation)
+ * [POS]: 行星环，土星环效果，使用调色板贴图，被 gasGiantRing 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2 } from "three";
 import { flip } from "../utils.js";
 

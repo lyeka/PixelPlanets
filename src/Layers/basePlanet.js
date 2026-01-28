@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createBasePlanet(lightPos, lightIntensity, colors, rotationSpeed, rotation)
+ * [POS]: 基础行星层，FBM 噪声 + 三色光照渐变，所有岩石行星的底层，被 Planets/*.js 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 

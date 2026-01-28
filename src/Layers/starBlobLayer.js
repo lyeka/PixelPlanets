@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(TextureLoader, NearestFilter, Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createStarBlobLayer(lightPos, rotationSpeed, rotation)
+ * [POS]: 恒星斑点层，表面活动区域，使用调色板贴图，被 starPlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { TextureLoader } from "three";
 import { NearestFilter } from "three";
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";

@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: dat.gui(GUI), three(Group,Vector2), settings, camera, Layers/stars, Three, utils
+ * [OUTPUT]: initScene() 自执行，无导出
+ * [POS]: 应用主入口，场景初始化 + 动画循环 + GUI 控制 + 鼠标交互
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { GUI } from 'dat.gui';
 import { Group, Vector2 } from 'three';
 import { settings } from './settings';

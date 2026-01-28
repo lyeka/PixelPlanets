@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2), utils(flip)
+ * [OUTPUT]: createDenseGasLayer(lightPos, rotationSpeed, rotation)
+ * [POS]: 密集气流层，更浓厚的气体效果，使用调色板贴图，被 gasGiant 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, NearestFilter, PlaneGeometry, ShaderMaterial, TextureLoader, Vector2 } from "three";
 import { flip } from "../utils.js";
 

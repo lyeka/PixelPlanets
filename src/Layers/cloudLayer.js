@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createCloudLayer(colors, lightPos, rotationSpeed, rotation, cloudCover, stretch)
+ * [POS]: 云层，球面映射 + 动态噪声 + 光照阴影，被 earthPlanet/icePlanet/lavaPlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 

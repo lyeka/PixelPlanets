@@ -1,3 +1,10 @@
+/**
+ * [INPUT]: three(Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4), utils(flip)
+ * [OUTPUT]: createlandMassLayer(lightPos, lightIntensity, colors, rotationSpeed, rotation, landCutoff)
+ * [POS]: 陆地层，FBM 噪声生成大陆形状，通过 alpha 控制可见性，被 earthPlanet/icePlanet/DryPlanet 消费
+ * [PROTOCOL]: 变更时更新此头部，然后检查 CLAUDE.md
+ */
+
 import { Mesh, PlaneGeometry, ShaderMaterial, Vector2, Vector4 } from "three";
 import { flip } from "../utils.js";
 
