@@ -29,6 +29,8 @@ PixelPlanets/
 │   ├── Images/           # 高光贴图
 │   └── Universe/         # 预留扩展（空）
 │
+├── docs/                 # 完全教程文档（8 章节）
+│
 └── Images/               # 展示图片
 ```
 
